@@ -29,6 +29,13 @@
     </header>
     <main>
       <h1>Welcome to Tarynn's website</h1>
+      <a href="images/Tarynn-500.png">
+        <picture>
+          <source srcset="images/Tarynn-150.png" media="(max-width: 500px)">
+          <source srcset="images/Tarynn-300.png">
+          <img src="images/Tarynn-300.png" alt="Photo of Tarynn Levesque">
+        </picture>
+      </a>
       <p>I am an adult student, returning to school to learn programming after dropping out of graphic design over a
         decade ago. Looking to try out something more up my alley, I have joined the Computer Programmer course at Sault
         College for a second try at furthering my education.</p>
@@ -36,7 +43,10 @@
         Dragons, Exalted, and Blades in the Dark for tabletop RPGs. FOr video games, I'm an avid player of Final Fantasy
         XIV, the Witcher 3, and the Tales RPG series.</p>
       <h2>My Favourite Things</h2>
-      <a href="https://bladesinthedark.com"><img src="images/bitdlogo.jpg" alt="Blades in the Dark logo"></a>
+      <figure>
+        <a href="https://bladesinthedark.com"><img src="images/bitdlogo.jpg" alt="Blades in the Dark logo"></a>
+        <figcaption>The logo for Blades in the Dark, a Tabletop RPG</figcaption>
+      </figure>
       <h3>Tabletop RPGs</h3>
       <ol>
         <li>Exalted</li>
@@ -50,6 +60,20 @@
         With no leaves to blow.<br>
         <cite>"Over the Wintry" by <span class="author">Natsumi Sōsuke</span></cite>
       </p>
+      <h3>Public Domain Audiobook</h3>
+      <audio controls>
+        <source
+          src="https://ia801509.us.archive.org/20/items/tristanandiseult_2212_librivox/tristanandiseult_1_symons_128kb.mp3"
+          type="audio/mp3">
+        <a
+          href="https://ia801509.us.archive.org/20/items/tristanandiseult_2212_librivox/tristanandiseult_1_symons_128kb.mp3">Tristan
+          and Iseult, Act 1</a>
+      </audio>
+      <h3>YouTube Video</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/61nuXrvqNgI" title="YouTube video player"
+        style="border: 0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </main>
     <footer>
       <hr>
@@ -59,6 +83,11 @@
       <p>&#169; 2022 <a
           href="mailto:aillin.levesque@student.saultcollege.ca?Subject=Message%20from%20CSD112%20Website">Aillin Tarynn
           Levesque</a></p>
+      <picture>
+        <source type="image/svg+xml" srcset="images/sc-logo.svg" width="70">
+        <img src="images/sc-logo.png" alt="Sault College logo"
+          srcset="images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
+      </picture>
     </footer>
     <a href="#top" title="Back to top">◤</a>
   </div>
